@@ -3,9 +3,11 @@ import 'regenerator-runtime/runtime';
 import '@mdi/font/css/materialdesignicons.css';
 import Vue from 'vue';
 import Vuetify from 'vuetify';
+import VueWorker from 'vue-worker';
 import 'vuetify/dist/vuetify.min.css';
 
 Vue.use(Vuetify);
+Vue.use(VueWorker);
 
 import App from './App.vue';
 
